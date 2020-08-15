@@ -27,4 +27,9 @@
         </dependencies>
     </dependencyManagement>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</developerConnection>
+        <connection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</connection>
+        <url>https://github.com/lzlevin/maven-release-plugin-demo.git</url>
+    </scm>
 </project>
