@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
     <artifactId>maven-release-plugin-demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.1</version>
 
     <modules>
         <module>module-test</module>
     </modules>
 
     <properties>
-        <module.version>1.1.2-SNAPSHOT</module.version>
+        <module.version>1.1.1</module.version>
         <framework.version>1.0.0-SNAPSHOT</framework.version>
     </properties>
 
@@ -36,6 +35,6 @@
         <developerConnection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</developerConnection>
         <connection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</connection>
         <url>https://github.com/lzlevin/maven-release-plugin-demo.git</url>
-        <tag>HEAD</tag>
+        <tag>1.1.1</tag>
     </scm>
 </project>
