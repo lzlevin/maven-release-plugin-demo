@@ -42,7 +42,7 @@
     <dependencies>
         <dependency>
             <groupId>com.vin</groupId>
-            <artifactId>framework-core</artifactId>
+            <artifactId>framework-common</artifactId>
             <version>${framework.version}</version>
         </dependency>
     </dependencies>
