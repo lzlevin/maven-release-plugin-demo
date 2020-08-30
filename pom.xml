@@ -5,14 +5,14 @@
     <groupId>org.example</groupId>
     <artifactId>maven-release-plugin-demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>test</version>
 
     <modules>
         <module>module-test</module>
     </modules>
 
     <properties>
-        <module.version>1.1.2-SNAPSHOT</module.version>
+        <module.version>test</module.version>
         <framework.version>1.0.0</framework.version>
     </properties>
 
@@ -35,7 +35,7 @@
         <developerConnection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</developerConnection>
         <connection>scm:git:https://github.com/lzlevin/maven-release-plugin-demo.git</connection>
         <url>https://github.com/lzlevin/maven-release-plugin-demo.git</url>
-        <tag>HEAD</tag>
+        <tag>test</tag>
     </scm>
 
     <dependencies>
