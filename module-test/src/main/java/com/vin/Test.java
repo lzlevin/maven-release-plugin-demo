@@ -28,4 +28,8 @@ public class Test {
     public String toString() {
         return super.toString();
     }
+
+    public void printTest2() {
+        System.out.println("dev print 2");
+    }
 }
