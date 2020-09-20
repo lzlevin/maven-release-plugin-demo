@@ -12,6 +12,7 @@ public class Test {
     }
 
     public void printTest() {
-        System.out.println("dev print test");
+        System.out.println("dev print test and feature-a print");
     }
+
 }
