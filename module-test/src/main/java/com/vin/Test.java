@@ -10,4 +10,8 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("dev add main method");
     }
+
+    public void print() {
+        System.out.println("feature-b print");
+    }
 }
