@@ -12,7 +12,10 @@ public class Test {
     }
 
     public void printTest() {
-        System.out.println("dev print test and feature-a print");
+        System.out.println("dev print test and feature-a print,feature a second print");
     }
 
+    public void featureAprint() {
+        System.out.println("feature a print ");
+    }
 }
