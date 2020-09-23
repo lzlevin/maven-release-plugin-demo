@@ -18,4 +18,9 @@ public class Test {
     public void featureAprint() {
         System.out.println("feature a print ");
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
